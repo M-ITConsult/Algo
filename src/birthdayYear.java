@@ -8,7 +8,7 @@ public class birthdayYear {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Entrez votre année de naissance: ");
         int result1 = scanner.nextInt();
-//        System.out.print("Entrez l'année en cours: ");
+///        System.out.print("Entrez l'année en cours: ");
 
         int result = theYear - result1;
 
