@@ -18,7 +18,7 @@ public class distributorMoney {
 
 
         do {
-            System.out.println("\n1. 200€\n2. 100€\n3. 50€\n4. 20€\n5. 10€\n6. 5€\n7. Montant personnalisé\n8. Retirer votre carte");
+            System.out.println("\n1. 200€\n2. 100€\n3. 50€\n4. 20€\n5. 10€\n6. 5€\n7. Montant personnalisé\n8. Retiré votre carte");
             int select = Integer.parseInt(sc.next());
 
             switch (select) {
