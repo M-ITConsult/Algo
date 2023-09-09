@@ -7,9 +7,9 @@ public class tes {
         int age;
 
         do {
-            System.out.println("Age?: ");
+            System.out.print("Age?: ");
             age = sc.nextInt();
-                    if(age == 18){System.out.println("OK");}else{
+                    if(age >= 18){System.out.println("OK");}else{
                         System.out.println("No");
                     }
 
