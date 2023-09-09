@@ -15,6 +15,6 @@ public class Cosplay {
         } else {
             JeanC = "Aragorn";
         }
-        System.out.printf("Votre Coplay sera: %s", JeanC);
+        System.out.printf("Votre Cosplay sera: %s", JeanC);
     }
 }

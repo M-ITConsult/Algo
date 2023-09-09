@@ -2,15 +2,18 @@
 import java.util.Scanner;
 
 public class birthdayYear {
-
-    static final int theYear = 2023;
     public static void yearsOld() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.printf("Hello, nous sommes en %s, pour changer l'année courante," +
-                " vous devez le changer dans le programme.%n", theYear);
+        int theYear;
+        int result1;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Entrez l'année en cours: ");
+        theYear = sc.nextInt();
         System.out.print("Entrez votre année de naissance: ");
-        int result1 = scanner.nextInt();
+        result1 = sc.nextInt();
         int result = theYear - result1;
+
 
         System.out.printf("Votre âge est de %s ans", result);
     }
