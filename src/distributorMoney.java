@@ -4,13 +4,12 @@ public class distributorMoney {
     static int compteBancaire = 2500;
     static int billetDeDeuxCent = 200;
     static int billetDeCent = 100;
-    static int billetdeCinquante = 50;
-    static int billetdeVingt = 20;
-    static int billetdeDix = 10;
-    static int billetdeCinq = 5;
+    static int billetDeCinquante = 50;
+    static int billetDeVingt = 20;
+    static int billetDeDix = 10;
+    static int billetDeCinq = 5;
 //    static int stockVingt = 20;
     public static void distributor() {
-
 
         Scanner sc = new Scanner(System.in);
         System.out.printf("Solde actuel sur votre compte: %s€%n", compteBancaire);
@@ -43,9 +42,9 @@ public class distributorMoney {
                 }
 
                 case 3 -> {
-                    if (billetdeCinquante <= compteBancaire) {
-                        compteBancaire -= billetdeCinquante;
-                        System.out.printf("%s€ retiré. Nouveau solde: %s€%n", billetdeCinquante, compteBancaire);
+                    if (billetDeCinquante <= compteBancaire) {
+                        compteBancaire -= billetDeCinquante;
+                        System.out.printf("%s€ retiré. Nouveau solde: %s€%n", billetDeCinquante, compteBancaire);
                     } else {
                         System.out.println("Fonds insuffisant! Reprenez votre carte...");
                         System.exit(0);
@@ -53,9 +52,9 @@ public class distributorMoney {
                 }
 
                 case 4 -> {
-                    if (billetdeVingt <= compteBancaire) {
-                        compteBancaire -= billetdeVingt;
-                        System.out.printf("%s€ retiré. Nouveau solde: %s€%n", billetdeVingt, compteBancaire);
+                    if (billetDeVingt <= compteBancaire) {
+                        compteBancaire -= billetDeVingt;
+                        System.out.printf("%s€ retiré. Nouveau solde: %s€%n", billetDeVingt, compteBancaire);
 //                        stockVingt--;
 //                        if (stockVingt < 1){
 //                            System.out.println("Plus de billets de 20€");
@@ -68,9 +67,9 @@ public class distributorMoney {
                 }
 
                 case 5 -> {
-                    if (billetdeDix <= compteBancaire) {
-                        compteBancaire -= billetdeDix;
-                        System.out.printf("%s€ retiré. Nouveau solde: %s€%n", billetdeDix, compteBancaire);
+                    if (billetDeDix <= compteBancaire) {
+                        compteBancaire -= billetDeDix;
+                        System.out.printf("%s€ retiré. Nouveau solde: %s€%n", billetDeDix, compteBancaire);
                     } else {
                         System.out.println("Fonds insuffisant! Reprenez votre carte...");
                         System.exit(0);
@@ -78,9 +77,9 @@ public class distributorMoney {
                 }
 
                 case 6 -> {
-                    if (billetdeCinq <= compteBancaire) {
-                        compteBancaire -= billetdeCinq;
-                        System.out.printf("%s€ retiré. Nouveau solde: %s€%n", billetdeCinq, compteBancaire);
+                    if (billetDeCinq <= compteBancaire) {
+                        compteBancaire -= billetDeCinq;
+                        System.out.printf("%s€ retiré. Nouveau solde: %s€%n", billetDeCinq, compteBancaire);
                     } else {
                         System.out.println("Fonds insuffisant! Reprenez votre carte...");
                         System.exit(0);
