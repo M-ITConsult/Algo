@@ -27,6 +27,10 @@ public class tableau_ex26 {
 
     public static void main(String[] args) {
         int[] tab = { 9, 5, 1, 8, 3, 7, 2, 6, 4 };
+        // Afficher le tableau non trié
+        System.out.println("Tableau non trié : ");
+            System.out.print(Arrays.toString(tab));
+
         triTableau(tab);
 
         // Afficher le tableau trié
