@@ -5,7 +5,8 @@ public class tableau_ex31 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] tableau = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 0};
+        int[] tableau = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
+        System.out.printf("Voici les valeurs: %s%n", Arrays.toString(tableau));
 
         System.out.print("Entrez la valeur à rechercher: ");
         int valeur = Integer.parseInt(sc.nextLine());
