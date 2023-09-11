@@ -20,7 +20,7 @@ public class tableau_ex31 {
             }
         }
 
-        if (!trouve){
+        if (!trouve) {
             System.out.printf("La valeur %s n'a pas été trouvée dans le tableau.", valeur);
         }
     }

@@ -5,7 +5,7 @@ public class tableau_ex30 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] tableau = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 0};
+        int[] tableau = {1, 3, 5, 7, 9, 11, 13, 15, 17, 8, 0};
 
         System.out.print("Entrez la nouvelle valeur à insérer: ");
         int nouvelleValeur = Integer.parseInt(sc.nextLine());
