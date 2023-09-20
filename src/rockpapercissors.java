@@ -9,6 +9,8 @@ public class rockpapercissors {
 
         Scanner sc = new Scanner(System.in);
         String playerMove;
+        int scoreJoueur = 0;
+        int scoreComptuer = 0;
 do {
         while(true) {
             System.out.println("Entrez r = pierre, p = papier, c = ciseau ");
@@ -26,27 +28,33 @@ do {
         }
         else if (playerMove.equals("r")) {
             if (computerMove.equals("p")) {
-                System.out.println("Vous perdez!");
+                scoreComptuer++;
+                System.out.printf("Vous perdez! Le joueur à désormais %s et l'ordinateur %s%n", scoreJoueur, scoreComptuer);
 
             } else if (computerMove.equals("c")) {
-                System.out.println("Vous gagnez!");
+                scoreJoueur++;
+                System.out.printf("Vous gagnez! Le joueur à désormais %s et l'ordinateur %s%n", scoreJoueur, scoreComptuer);
             }
         }
 
         else if (playerMove.equals("p")) {
                 if (computerMove.equals("r")) {
-                    System.out.println("Vous gagnez!");
+                    scoreJoueur++;
+                    System.out.printf("Vous gagnez! Le joueur à désormais %s et l'ordinateur %s%n", scoreJoueur, scoreComptuer);
                 }
              else if (computerMove.equals("c")) {
-                System.out.println("Vous perdez!");
+                 scoreComptuer++;
+                System.out.printf("Vous perdez! Le joueur à désormais %s et l'ordinateur %s%n", scoreJoueur, scoreComptuer);
             }
         }
 
         else if (playerMove.equals("c")) {
             if (computerMove.equals("p")) {
-                System.out.println("Vous gagnez!");
+                scoreJoueur++;
+                System.out.printf("Vous gagnez! Le joueur à désormais %s et l'ordinateur %s%n", scoreJoueur, scoreComptuer);
             } else if (computerMove.equals("r")) {
-                System.out.println("Vous perdez!");
+                scoreComptuer++;
+                System.out.printf("Vous perdez! Le joueur à désormais %s et l'ordinateur %s%n", scoreJoueur, scoreComptuer);
             }
         }
 
