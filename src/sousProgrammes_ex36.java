@@ -22,10 +22,10 @@ public class sousProgrammes_ex36 {
             } else {
                 System.out.println("Plus de patates! Veuillez remplir le sceau\n");
 
-                System.out.print("Souhaitez-vous remplir le sceau? oui/non ");
+                System.out.print("Souhaitez-vous remplir le sceau? y/n ");
                 choice = sc.nextLine();
 
-                if (choice.equalsIgnoreCase("oui")) {
+                if (choice.equalsIgnoreCase("y")) {
                     patatesDansSceau = capacite_sceau;
                     } else {break;}
                 }
@@ -35,9 +35,9 @@ public class sousProgrammes_ex36 {
                 break;
             }
 
-            System.out.print("Souhaitez-vous peler une autre patate? oui/non ");
+            System.out.print("Souhaitez-vous peler une autre patate? y/n ");
             choice = sc.nextLine();
-        } while(choice.equalsIgnoreCase("oui"));
+        } while(choice.equalsIgnoreCase("y"));
         System.out.println("GoodBye!");
     }
 
